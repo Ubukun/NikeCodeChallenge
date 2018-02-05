@@ -25,10 +25,6 @@ public class HomePage {
     {
 	return driver.findElement(clickOnButton);
     }
-    public WebElement CheckShopCart()
-    {
-	return driver.findElement(goToCart);
-    }
     public WebElement ViewShopCart()
     {
 	return driver.findElement(goToCart);
